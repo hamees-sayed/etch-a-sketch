@@ -4,6 +4,7 @@ body {
     font-family: 'Fredoka One', cursive;
     color: rgb(0, 116, 154);
     background-color: burlywood;
+    box-sizing: border-box;
 }
 
 .container {
@@ -38,5 +39,6 @@ button {
     height: 700px;
     width: 700px;
     border: 2px solid rgb(0, 116, 154);
+    display: grid;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
